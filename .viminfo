@@ -21,24 +21,27 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-"1	LINE	0
+""1	LINE	0
+	this is just test if this is working
+"2	LINE	0
 	
-""-	CHAR	0
+"-	CHAR	0
 	#
 
 # File marks:
-'0  1  0  ~/playbooks/playbook.yaml
-'1  43  29  /etc/ansible/hosts
-'2  2  0  /etc/ansible/hosts
-'3  44  0  /etc/ansible/hosts
-'4  1  0  ~/.ssh/id_rsa.pub
-'5  1  0  ~/id_rsa.pub
-'6  660  0  ~/.git/COMMIT_EDITMSG
-'7  1  14  ~/.git/COMMIT_EDITMSG
-'8  2  0  ~/.git/COMMIT_EDITMSG
-'9  1  0  ~/.ssh/id_rsa
+'0  1  15  ~/test.txt
+'1  1  0  ~/playbooks/playbook.yaml
+'2  43  29  /etc/ansible/hosts
+'3  2  0  /etc/ansible/hosts
+'4  44  0  /etc/ansible/hosts
+'5  1  0  ~/.ssh/id_rsa.pub
+'6  1  0  ~/id_rsa.pub
+'7  660  0  ~/.git/COMMIT_EDITMSG
+'8  1  14  ~/.git/COMMIT_EDITMSG
+'9  2  0  ~/.git/COMMIT_EDITMSG
 
 # Jumplist (newest first):
+-'  1  15  ~/test.txt
 -'  1  0  ~/playbooks/playbook.yaml
 -'  43  29  /etc/ansible/hosts
 -'  44  0  /etc/ansible/hosts
@@ -135,9 +138,14 @@
 -'  1  0  ~/id_rsa.pub
 -'  660  0  ~/.git/COMMIT_EDITMSG
 -'  1  0  ~/.git/COMMIT_EDITMSG
--'  2  0  ~/.git/COMMIT_EDITMSG
 
 # History of marks within files (newest to oldest):
+
+> ~/test.txt
+	"	1	15
+	^	1	16
+	.	1	15
+	+	1	15
 
 > ~/playbooks/playbook.yaml
 	"	1	0
