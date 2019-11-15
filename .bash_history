@@ -213,3 +213,105 @@ sudo ufw enable
 ssh root@10.128.0.3
 sudo ufw disable
 clear
+cd
+cd /root
+ls .ssg
+ls .ssh
+vim id_rsa.pub
+vim id_rsa
+ssh-keygen
+vim id_rsa
+ls .ssh
+vim id_rsa.pub
+ls
+cd /
+ls
+cd root
+cd .ssm
+cd .ssh
+vim id_rsa
+vim id_rsa.pub
+ssh root@10.128.0.3
+/
+cd /
+ls
+ls -all
+/root
+cd /root
+ls -all
+git clone https://github.com/edureka-devops/projCert.git
+git status
+git commit -a
+git help
+git commit -a
+git push
+git push origin master
+git status
+git add
+git add .
+git status
+git commit .
+git commit "all changes"
+git help
+git help commit
+cd /
+docker ps
+ssh root@10.128.0.3
+docker ps
+whereis apache2
+ssh root@10.128.0.3
+ls
+/root
+cd /root
+ls
+vim id_rsa.pub
+ssh-keygen
+vim id_rsa.pub
+ls
+ls .ssh
+vim id_rsa.pub
+ssh-keygen
+vim id_rsa.pub
+ls
+ls -a
+ls .ssh
+ls id_rsa.pub
+vim id_rsa.pub
+$ ls ~/.ssh/*.pub
+ls ~/.ssh/*.pub
+cd /root/.ssh/id_rsa.pub
+vim /root/.ssh/id_rsa.pub
+ssh root@10.128.0.4
+vim /root/.ssh/id_rsa.pub
+ssh root@10.128.0.5
+cd /
+ssh root@10.128.0.5
+sudo nano /etc/ansible/hosts
+nano /etc/ansible/hosts
+cd /
+sudo nano /etc/ansible/hosts
+cd ..
+nano /etc/ansible/hosts
+sudo apt-get install nano
+nano /etc/ansible/hosts
+ssh root@10.128.0.6
+cd ..
+cd /etc/ansible
+ls
+vim hosts
+sudo vim hosts
+sudo nano hosts
+ansibble -m ping production
+ansible -m ping production
+cd ..
+ansibble -m ping production
+ansible -m ping production
+ls
+cd root
+ls
+mkdir playbooks
+cd playbooks/
+vim playbook.yaml
+sudo vim playbook.yaml
+suno nano playbook.yaml
+sudo nano playbook.yaml

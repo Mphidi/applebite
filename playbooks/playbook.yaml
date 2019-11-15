@@ -1,0 +1,10 @@
+---
+- hosts: production
+  become_user: root
+  tasks:
+  - name: install devopsedu/webapp image
+    apt: name-devopsedu/webapp state-present update cache-yes
+  - name: start and enable apache2 service
+    service: name-apache2 state-started enabled-yes
+  name: deplay my website
+  copy: src=root/projcert dest=/var/www.html	
